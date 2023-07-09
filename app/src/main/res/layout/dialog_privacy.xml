@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Privacy"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:text="Our app only uses your phone's camera to track your eye movements during a task, and does not record any video. We only capture the coordinates of your eye movements on the screen for eye tracking data. Additionally, we take screenshots of the developer's website during task completion. No data is captured before or after the task. The eye tracking data and task screenshots are shared with the website developer."
+        android:textColor="@android:color/black"
+        android:layout_margin="12dp"
+        android:textSize="16sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="OK" />
+
+</LinearLayout>
